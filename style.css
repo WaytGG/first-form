@@ -1,0 +1,40 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  text-align: center;
+  padding-top: 150px;
+}
+
+form {
+  display: inline-block;
+  width: 700px;
+  height: 100%;
+  text-align: left;
+  padding: 5px 5px 5px 180px; 
+  border: 2px solid gray;
+  border-radius: 25px;
+}
+
+label {
+  display: block;
+}
+
+textarea {
+  width:80%;
+  resize: vertical;
+  padding:15px;
+  border-radius:15px;
+  border:0;
+  box-shadow:6px 6px 10px rgba(0, 0, 0, 0.24);
+  height:150px;
+}
+
+button {
+  display: inline-block;
+  margin: 5px 115px;
+
+}
